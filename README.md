@@ -1,7 +1,7 @@
 # HandyPose
 
 <p align="center">
-  <img src="imgs/Handypose_architecture.PNG", title="HandyPose architecture for Hand Pose Estimation">
+  <img src="imgs/Handypose_arch_1.PNG", title="HandyPose architecture for Hand Pose Estimation">
   Figure 1: The proposed HandyPose architecture for 2D hand pose estimation. The input RGB image is fed into the ResNet-101 backbone, obtaining 400 feature maps after the concatenation of Multi-Level Waterfall outputs and MLF feature channnels. The decoder module generates heatmaps (one per joint) and exact locations of keypoints are extracted from the heatmaps by applying a local maxima function.
 </p><br />
 
